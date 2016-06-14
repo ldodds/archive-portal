@@ -5,10 +5,11 @@ gem 'json'
 gem 'soda-ruby'
 gem 'dotenv'
 gem 'rest-client'
+gem 'mechanize'
+gem 'rubyzip'
 
 group :test do
   gem 'rspec'
-  gem 'rack-test'
   gem 'vcr'  
   gem 'webmock'
 end
